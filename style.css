@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: rgb(47, 47, 162);
+}
+
+h1 {
+  width: 90%;
+  /* font-family: "Trade Winds", cursive; */
+  font-family: "Cinzel Decorative", cursive;
+  /* font-family: "Faster One", cursive; */
+  font-size: 10vw;
+  font-weight: 500;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: url("https://images.unsplash.com/photo-1520699697851-3dc68aa3a474?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80");
+  background-size: 35%;
+  background-repeat: repeat;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
